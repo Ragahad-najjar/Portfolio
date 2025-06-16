@@ -1,0 +1,118 @@
+.ContactMe {
+    width: 100%;
+    padding: 50px 70px;
+}
+.ContactMe h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 14px;
+    color: #0C96E2;
+}
+.ContactMe .Title .Title_Project p{
+    font-size: 40px;
+    font-weight: 600;
+}  
+.ContactMe .Title .Title_Project span {
+    font-size: 40px;
+    font-weight: 600;
+    color: #0C96E2;
+}  
+.ContactMe .ContactContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 25px;
+}
+.ContactMe .ContactContainer .ContactInfo {
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+}
+.ContactMe .ContactContainer .ContactInfo .ContactDetails {
+    display: flex;
+    align-items: flex-start;
+    gap:15px;
+    padding-top: 20px;
+}
+.ContactMe .ContactContainer .ContactInfo .ContactDetails .Info {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.ContactMe .ContactContainer .ContactInfo .ContactDetails .Info p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#92929D;
+}
+.ContactMe .ContactContainer .ContactInfo .ContactDetails .Info  span {
+    font-size: 16px;
+    font-weight: 500;
+}
+.ContactMe .ContactInputForm .form .input-group{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.ContactMe .ContactInputForm .form .input-group .input-box {
+    display: flex;
+    gap: 15px;
+}
+.ContactMe .ContactInputForm .form .input-group .input-box .field , 
+.ContactMe .ContactInputForm .form .input-group .input-box .field_1{
+    width: 375px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0.3px solid #BEC0BF;
+    font-size: 16px;
+    font-weight: 400;
+    color: #92929D;
+    padding: 8px;
+}
+.ContactMe .ContactInputForm .form .input-group .input-box .field_1{
+    width: 100%;
+    height: 56px;
+}
+.dark .field ,
+.dark .field_1{
+    background-color: #1D2130;
+}
+#Mess {
+    width: 100%;
+    height: 200PX;
+}
+.ContactMe .ContactInputForm .form .input-group-2 .btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0C96E2;
+    margin-top: 15px;
+}
+@media (max-width:992px){
+    .ContactMe {
+        padding: 10px;
+    }
+    .ContactMe .ContactContainer .ContactInfo .ContactDetails .Info  span{
+        font-size: 12px;
+    }
+    .ContactMe .ContactInputForm .form .input-group .input-box .field , 
+    .ContactMe .ContactInputForm .form .input-group .input-box .field_1{
+        max-width: 275px;
+    }
+    .ContactMe .ContactInputForm .form .input-group .input-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContactMe .ContactInputForm .form .input-group-2 {
+        display: flex;
+        justify-content: center;
+        
+    }
+}

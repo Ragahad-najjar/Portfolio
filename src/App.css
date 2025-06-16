@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}.light {
+  background-color: #ffffff;
+  color:#1D2130;
+}
+
+/* أنماط للوضع الداكن (dark mode) */
+.dark {
+  background-color: #1D2130;
+  color: #ffffff;
+}
+body{
+  background-color: aqua;
+  scroll-behavior: smooth;
+}

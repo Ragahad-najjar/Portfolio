@@ -1,0 +1,56 @@
+.CardDetails  {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap:30px;
+}
+.CardDetails img {
+    width: 613px;
+    border-radius: 8px;
+}
+.CardDetails h3{
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.CardDetails .Text {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.CardDetails p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+.CardDetails span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.CardDetails button {
+    width: 164px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0C96E2;
+    margin-top: 10px;
+}
+
+@media (max-width:992px){
+    .CardDetails {
+        height: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    .CardDetails img {
+        min-width: 280px;
+    }
+}

@@ -1,0 +1,103 @@
+.SecPortfolio {
+    width: 100%;
+    padding: 50px 70px;
+}
+.SecPortfolio h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 14px;
+    color: #0C96E2;
+}
+.SecPortfolio .Title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SecPortfolio .Title p{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+}
+.SecPortfolio .Title span {
+    color: #0C96E2;
+}
+.SecPortfolio .Title .button {
+    padding-bottom:10px ;
+    position: relative;
+}
+.SecPortfolio .Title .button button{
+    width:163.47px;
+    height: 50px;
+    text-align: center;
+    background: #0C96E2;
+    border: none;
+    border-radius: 8px;
+}
+.SecPortfolio .Title .button  a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color:#fff;
+}
+.SecPortfolio .Title .button img {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+.SecPortfolio .Container-project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-top: 30px;
+
+}
+.SecPortfolio .Container-project .Card{
+    width: 370px;
+    height: 320px;
+    border-radius: 8px;
+}
+.SecPortfolio .Container-project .Card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.SecPortfolio .Container-project .Card .Content-text {
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.SecPortfolio .Container-project .Card .Content-text p{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.SecPortfolio .Container-project .Card .Content-text .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SecPortfolio .Container-project .Card .Content-text .content span {
+    font-size: 16px;
+    font-weight: 400;
+}
+.SecPortfolio .Container-project .Card .Content-text .content img {
+    width: 35px;
+    height: 35px;
+}
+@media (max-width:992px) {
+    .SecPortfolio {
+        padding: 10px;
+    }
+    .SecPortfolio .Title ,
+    .SecPortfolio h2 {
+        text-align: center;
+    }
+    .SecPortfolio .Title .button {
+        margin: 0 auto;
+    }
+    .SecPortfolio .Title_Project {
+        padding-bottom: 25px;
+    }
+    
+}

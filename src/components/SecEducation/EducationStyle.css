@@ -1,0 +1,51 @@
+.Education {
+    width: 100%;
+    padding-top: 100px;
+}
+.Education .Title {
+    width: 100%;
+    text-align: center;
+}
+.Education .Title h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C96E2;
+    padding-bottom: 12px;
+}
+.Education .Title h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.Education .container {
+    width: 100%;
+    padding: 50PX 70PX;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.Education .container .txt-education {
+    display: flex;
+    gap: 25px;
+}
+.Education .container .txt-education .timeline-items {
+    display: flex;
+    flex-direction: column;
+    gap:65px;
+}
+.Education .container .txt-education .timeline-items .timeline-content h3 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.Education .container .txt-education .timeline-items .timeline-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color:#98A2B3;
+}
+@media (max-width:992px) {
+    .Education .container {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

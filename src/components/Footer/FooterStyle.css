@@ -1,0 +1,19 @@
+.Footer {
+    width: 100%;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Footer .Icon_Socail {
+    display: flex;
+    gap: 10px;
+}
+@media (max-width:992px){
+    .Footer{
+        padding: 10px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+}

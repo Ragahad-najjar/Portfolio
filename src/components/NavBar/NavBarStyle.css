@@ -1,0 +1,121 @@
+  .navbar {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .navbar .Logo-nav h1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .navbar .nav-links .List-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+  }
+  
+  .navbar .nav-links .List-menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar .nav-links .List-menu ul li a.active,
+  .navbar .nav-links .List-menu ul li a:hover {
+    color: #0C96E2;
+  }
+  
+  .light .nav-links .List-menu ul li a {
+    color: #1D2130;
+  }
+  .dark .nav-links .List-menu ul li a {
+    color: #ffffff;
+  }
+  
+  .navbar .navbar-actions .mobile-menu-toggle {
+    display: none;
+    border-radius:5px;
+    border: none;
+    font-size: 1.5rem;
+    
+  }
+  
+  .navbar .sidebar {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 250px;
+    height: 80%;
+    z-index: 2;
+    box-shadow: 0 4px 4px #0C96E2;
+  }
+  
+  .navbar .sidebar .sidebar-content {
+    padding: 1rem;
+  }
+  
+  .navbar .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar .sidebar ul li a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    padding: 10px 0;
+  }
+  
+  .navbar .sidebar .theme-toggle {
+    margin-top: 20px;
+  }
+  .dark .mobile-menu-toggle{
+    background-color: #1D2130;
+  }
+  .light .mobile-menu-toggle {
+    background-color: #ffffff;
+  }
+  @media (max-width: 992px) {
+  .navbar .nav-links {
+    display: none;
+    }
+  
+  .navbar .navbar-actions .theme-toggle {
+    display: none;
+    }
+  
+  .navbar .navbar-actions .mobile-menu-toggle {
+    display: block;
+    }
+  
+  .navbar .sidebar {
+      display: block;
+    }
+    .light .sidebar ul li a {
+      color: #1D2130; 
+    }
+    
+    .light .sidebar ul li a.active,
+    .light .sidebar ul li a:hover {
+      color: #0C96E2; 
+    }
+    .dark .sidebar ul li a {
+      color: #ffffff; 
+    }
+    .dark .sidebar ul li a.active,
+    .dark .sidebar ul li a:hover {
+      color: #0C96E2; 
+    }
+  }
